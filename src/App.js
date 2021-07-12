@@ -1,10 +1,11 @@
 import React from "react";
+import Counter from "./components/Counter";
 import img from "./img.jpg";
 
 const App = () => {
   return (
     <div>
-      <h1>React App</h1>
+      <Counter />
       <img src={img} width="250" />
     </div>
   );
